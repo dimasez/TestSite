@@ -6,18 +6,81 @@
     <title>Static Website</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Google web fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,700,300,600,400&amp;subset=cyrillic-ext,latin" rel="stylesheet" type="text/css">
+    <!-- Stylesheets-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!--if IE 7-->
+    <link rel="stylesheet" href="css/font-awesome-ie7.css">
+    <link rel="stylesheet" href="css/style-erica.css">
+    <!-- Color Stylesheet - orange, blue, pink, brown, red or green-->
+    <link href="css/blue.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/my-style.css" rel="stylesheet">
   </head>
   <body><!--[if lt IE 8]>
     <p class="browserupgrade">
       You are using an <strong>outdated</strong> browser.
       Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
     </p><![endif]-->
-    <ul class="menu">
-      <li><a href="/">home</a></li>
-      <li><a href="">about</a></li>
-      <li><a href="./people.html">people</a></li>
-    </ul>
+    <html>
+      <body>
+        <header>
+          <div class="container">
+            <div class="row">
+              <div class="span6">
+                <!-- Logo and site link-->
+                <div class="logo">
+                  <h1><a href="index.html">Основы финансов<span class="color">.</span></a></h1>
+                </div>
+              </div>
+              <div class="span4 offset2">
+                <div class="list">
+                  <!-- Add your phone number here-->
+                  <div class="phone"><i class="icon-phone"></i> Phone: 123-456-7890</div>
+                  <hr>
+                  <!-- Add your email id here-->
+                  <div class="email"><i class="icon-envelope-alt"></i> Email: someting@gmail.com</div>
+                  <hr>
+                  <!-- Add your address here-->
+                  <div class="address"><i class="icon-home"></i> Address: 12, Srtington Street, NY, USA</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </body>
+    </html>
+    <!-- Navigation Starts-->
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container"><a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar">Menu</a>
+          <div class="nav-collapse">
+            <!-- Navigation links starts here-->
+            <ul class="nav">
+              <!-- Main menu-->
+              <li class="dropdown"><a href="/" data-toggle="dropdown" class="dropdown-toggle">
+                   
+                  Все о финансах<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/people.html">Личные финансы</a></li>
+                  <li><a href="/">Финансы страны</a></li>
+                  <li><a href="/">Финансовые институты</a></li>
+                  <li><a href="/">Корпоративные финансы</a></li>
+                </ul>
+              </li>
+              <li><a href="/people.html">Рейтинг участников</a></li>
+              <li><a href="/articles/business-model.html">Призовой фонд     </a></li>
+              <li><a href="/articles/s7-business-model.html">О Проекте </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation Ends-->
     <h2> Люди</h2>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="vendor/2.1.3/jquery.min.js"><\/script>')</script>
